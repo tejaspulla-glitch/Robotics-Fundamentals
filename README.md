@@ -6,6 +6,6 @@ Python simulations of simple mechanical systems. This is the first stage of my r
 
 - **Rotations:** rotating a 2D shape with a rotation matrix
 - **Falling ball:** a ball falling with air drag
-- **Spring-mass-damper:** a spring with three damping cases
-- **Pendulum:** a swinging pendulum, compared to the small-angle approximation
+- **Spring-mass-damper:** a spring with damping motion
+- **Pendulum:** a swinging pendulum
 
