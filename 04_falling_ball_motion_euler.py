@@ -5,21 +5,17 @@ This program uses the previous falling ball simulation and improves upon it usin
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Simulation parameters
 mass = 1.0  # kg
 g = 9.81  # m/s^2 (gravity)
 t_start = 0.0  # s
 t_end = 10.0  # s
 dt = 0.1  # time step in seconds
 
-# Time array
 t = np.arange(t_start, t_end + dt, dt)
 
-# State arrays
 y = np.zeros_like(t)  # height (position)
 v = np.zeros_like(t)  # velocity
 
-# Initial conditions
 y[0] = 200.0  # starting height in meters
 v[0] = 0.0  # initial velocity in m/s
 
