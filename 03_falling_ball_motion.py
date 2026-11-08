@@ -1,3 +1,9 @@
+"""
+This program uses solve_ivp to simulate the motion of a falling ball by modeling its motion using differential equations
+and plotting it using matplotlib
+"""
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import integrate
